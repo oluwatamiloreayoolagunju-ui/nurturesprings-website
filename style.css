@@ -518,3 +518,136 @@ footer h2 {
         align-items: flex-start;
     }
 }
+
+/* MEET OUR FOUNDER */
+.meet-founder-section {
+    background-color: #faf6ef;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+/* FOUNDER PICTURE */
+.meet-founder-section img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid #d8bd96;
+    margin-bottom: 30px;
+}
+
+/* HEADING */
+.meet-founder-section h3 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #493326;
+    margin-bottom: 20px;
+}
+/* FOUNDER AND CHAIRMAN NAMES */
+.meet-founder-section h2,
+.meet-chairman-section h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #493326;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* DESCRIPTION */
+.meet-founder-section p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #68584b;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .meet-founder-section {
+        padding: 60px 20px;
+    }
+
+    .meet-founder-section img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .meet-founder-section h3 {
+        font-size: 30px;
+    }
+}
+
+ /* MEET OUR CHAIRMAN*/
+.meet-chairman-section {
+    background-color: #faf6ef;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+/* CHAIRMAN PICTURE */
+.meet-chairman-section img {
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position:center;
+    border: 5px solid #d8bd96;
+    margin-bottom: 30px;
+}
+
+/* HEADING */
+.meet-chairman-section h3 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #493326;
+    margin-bottom: 20px;
+}
+/* FOUNDER AND CHAIRMAN TITLES */
+.meet-founder-section h4,
+.meet-chairman-section h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #a4774e;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+/* DESCRIPTION */
+.meet-chairman-section p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #68584b;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .meet-chairman-section {
+        padding: 60px 20px;
+    }
+
+    .meet-chairman-section img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .meet-chairman-section h3 {
+        font-size: 30px;
+    }
+}
+
+ 
